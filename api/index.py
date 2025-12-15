@@ -77,6 +77,4 @@ Waktu: {waktu}
         print(f'Email error: {e}')
         return jsonify({'success': False, 'message': 'Gagal mengirim laporan. Silakan coba lagi.'}), 500
 
-def handler(request):
-    with app.test_client() as client:
-        return client.get(request.path)
+# Vercel uses the 'app' variable directly

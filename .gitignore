@@ -1,5 +1,8 @@
-node_modules/
+__pycache__/
+*.py[cod]
 .env
 *.log
 .DS_Store
 attached_assets/
+.pythonlibs/
+venv/
